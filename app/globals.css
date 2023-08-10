@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+  float: left;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  position: relative;
+  clip-path: circle();
+  text-align: center;
+}
+
+#circle_self {
+  width: 40%;
+  height: 40%;
+  background: #5a1ebc; 
+  top: 0;
+  left: 0;
+}
+
+#circle_personality {
+  width: 45%;
+  height: 45vh;
+  background: #B6A886;
+  top: 28%;
+  left: -24%; 
+}
+
+#circle_hobby {
+  width: 30%;
+  height: 30%;
+  background: #56901B;
+  top: 20%;
+  left: -48%;
+}
